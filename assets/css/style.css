@@ -85,9 +85,15 @@ body {
 }
 
 .main-footer {
-background-color: rgb(69, 69, 172);
+background-color: rgb(84, 84, 128);
 color: white;
 padding: .25em 0;
+}
+
+.main-footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .main-footer-box {
@@ -102,4 +108,27 @@ padding: .25em 0;
 
 .footer-nav {
   padding: 0 .5em;
+}
+
+.gotopbtn {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+
+.project1 img {
+  height: 400px;
+  width: 500px;
+  padding: 1em;
+}
+
+.project1-info {
+  text-align: center;
 }

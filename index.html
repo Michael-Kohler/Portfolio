@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      crossorigin="anonymous">
   </head>
+
   <body>
+
     <header class="main-header">
       <nav class="nav main-nav">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">Links</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#links">Links</a></li>
+          <li><a href="#contacts">Contact</a></li>
         </ul>
       </nav>
       <h1 class="name bigger-name">Michael Kohler</h1>
     </header>
-    <section class="text box">
-      <h2 class="section-header">Portfolio</h2>
-      <img class="port-photo" src="./assets/images/Work-Headshot.jpg" alt="Michael's Photo" />
-      <p >
+
+    <section id="#about" class="text box">
+      <h2 class="section-header">About</h2>
+      <img
+        class="port-photo"
+        src="./assets/images/Work-Headshot.jpg"
+        alt="Michael's Photo"
+      />
+      <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum a error
         ducimus ea impedit sit minus, mollitia dolorem voluptates dignissimos
         maiores sint odit. Maiores pariatur velit, doloremque eveniet mollitia
@@ -69,15 +79,29 @@
         sapiente nisi soluta sed consectetur, aspernatur quam maiores.
       </p>
     </section>
-      <footer class="main-footer">
-        <div class="box main-footer-box">
+
+    <section id="links" class="text-box">
+      <h2 class="section-header">Project Links</h2>
+      <h3 class="section-header">Poject 1 - Media Search</h4>
+        <div class="project1-info">
+        <a class="project1" href="https://ale-miret.github.io/Media-search/"><img src="https://user-images.githubusercontent.com/112821785/202351565-10ed9e33-f4de-4422-8595-c8b5f2bf44dd.JPG" alt="Project Screenshot">
+        </a>
+      </div>
+    </section>
+
+    <a class="gotopbtn" href="#">
+      <img src="./assets/images/angle-up-solid.svg" alt="Scroll to Top" />
+    </a>
+
+    <footer id="contacts" class="main-footer">
+      <div class="box main-footer-box">
         <h3 class="name">Michael Kohler</h3>
         <ul class="nav footer-nav">
-          <li><a href="#">LinkedIn</a></li>
-          <li><a href="#">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/michael-kohler-19010b251/">LinkedIn</a></li>
+          <li><a href="https://github.com/Michael-Kohler">GitHub</a></li>
           <li><a href="#">Instagram</a></li>
         </ul>
       </div>
-      </footer>
+    </footer>
   </body>
 </html>
