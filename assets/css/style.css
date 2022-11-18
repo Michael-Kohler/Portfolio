@@ -1,9 +1,11 @@
+/* applies the following to the whole page */
 * {
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
 }
 
+/* provides a transparent background */
 html,
 body {
   margin: 0;
@@ -37,10 +39,12 @@ body {
   padding: 0 5%;
 }
 
+/* establishes a hover color to nav bar */
 .nav a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+/* makes the provided img the back ground for the header and merges the transparent color to the img */
 .main-header {
   background-color: rgba(0, 0, 0, 0.3);
   background-image: url(https://images.pexels.com/photos/9996329/pexels-photo-9996329.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -76,6 +80,7 @@ body {
   font-size: 2.5em;
 }
 
+/* specific sizing and spacing for the portfolio img */
 .port-photo {
   float: left;
   height: 200px;
@@ -85,9 +90,9 @@ body {
 }
 
 .main-footer {
-background-color: rgb(84, 84, 128);
-color: white;
-padding: .25em 0;
+  background-color: rgb(84, 84, 128);
+  color: white;
+  padding: 0.25em 0;
 }
 
 .main-footer {
@@ -107,9 +112,10 @@ padding: .25em 0;
 }
 
 .footer-nav {
-  padding: 0 .5em;
+  padding: 0 0.5em;
 }
 
+/* css for the back to top botton */
 .gotopbtn {
   position: fixed;
   width: 30px;
@@ -123,6 +129,7 @@ padding: .25em 0;
   font-size: 22px;
 }
 
+/* sizing for the project img */
 .project1 img {
   height: 400px;
   width: 500px;
